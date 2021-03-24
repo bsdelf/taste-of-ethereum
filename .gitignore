@@ -1,0 +1,7 @@
+/dist
+*.bin
+*.abi
+node_modules
+chaindata
+genesis.json
+config.local.yaml

@@ -1,0 +1,24 @@
+{
+  "name": "taste-of-ethereum",
+  "version": "1.0.0",
+  "author": "Yanhui Shen",
+  "description": "a taste of ethereum",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:contracts:hello": "solcjs contracts/hello.sol --bin --abi",
+    "clean": "tsc --build --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "web3": "^1.3.4",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "solc": "^0.8.3",
+    "typescript": "^4.2.3"
+  }
+}

@@ -1,0 +1,15 @@
+web3:
+  provider: 'ws://localhost:8546'
+accounts:
+  - name: 'god'
+    keyPath: ''
+    password: ''
+  - name: 'alice'
+    keyPath: ''
+    password: ''
+  - name: 'bob'
+    keyPath: ''
+    password: ''
+  - name: 'cathy'
+    keyPath: ''
+    password: ''
